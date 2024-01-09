@@ -10,6 +10,7 @@ header {
     padding: 0;
     padding-right: 3rem;
     padding-left: 6rem;
+    padding-left: 8rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
     background-color: rgb(17, 17, 61);
@@ -81,9 +82,10 @@ header > nav > ul > li  {
 
 .topPageLeftContentBox {
     /*border: 1px solid red;*/
-    width: 42%;
+    width: 39%;
     padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 8rem;
+    padding-right: 6%;
     padding-top: 15rem;
     padding-bottom: 4rem;
     background-color: rgb(17, 17, 61);
@@ -190,7 +192,8 @@ header > nav > ul > li  {
     /*border: 1px solid aqua;*/
     width: 41%;
     padding-left: 4%;
-    padding-right: 5%;
+    padding-left: 8rem;
+    padding-right: 2%;
     padding-top: 15rem;
     padding-bottom: 15rem;
     background-color: rgb(244, 249, 250);
@@ -284,8 +287,9 @@ header > nav > ul > li  {
 .boxTop .blueBox{
     position: absolute;
     width: 18rem;
-    top: -3.3rem;
+    top: -3.6rem;
     left: -6.6rem;
+    
 }
 
 .boxTop .grayBox{
@@ -327,4 +331,319 @@ header > nav > ul > li  {
     font-size: 1.7rem;
     line-height: 3.2rem;
     text-align: center;
+}
+
+.leftContainer3PhotoBox, .rightContainer3Box {
+    float: left;
+    width: 8%;
+    z-index: 1;
+}
+
+.leftContainer3PhotoBox {
+    position: relative;
+    /*border: 1px solid red;*/
+    width: 38%; 
+    height: 50vh;
+    background-color: lightgray;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    margin-right: 6rem;
+    border-radius: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.rightContainer3Box {
+    /*border: 1px solid aqua;*/
+    width: 43%;
+    padding-left: 3%;
+    padding-right: 4%;
+    /*padding-top: 15rem;*/
+    padding-bottom: 15rem;
+    background-color: rgb(244, 249, 250);
+    
+}
+
+.rightContainer3Box h5 {
+    font-size: 1.3rem;
+    line-height: 5rem;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.rightContainer3Box h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+    color: gray;
+}
+
+.rightContainer3Box p{
+    font-size: 2.2rem;
+    line-height: 3rem;
+    color: rgb(183, 182, 182);
+    padding-top: 1.3rem;
+    margin-bottom: 8rem;
+}
+
+.rightContainer3BoxButton {
+    color: white;
+    padding: 2rem 5rem;
+    background-color: rgb(17, 17, 61);
+    border-radius: 3px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.centerContainer4Box {
+    clear: both;
+    text-align: center;
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 10%;
+}
+
+
+
+.leftContainer4PhotoBox, .rightContainer4Box {
+    float: left;
+    width: 8%;
+    z-index: 1;
+}
+
+.leftContainer4PhotoBox {
+    position: relative;
+    /*border: 1px solid red;*/
+    width: 38%; 
+    height: 50vh;
+    background-color: lightgray;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    margin-right: 6rem;
+    border-radius: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.rightContainer4Box {
+    /*border: 1px solid aqua;*/
+    width: 43%;
+    padding-left: 3%;
+    padding-right: 4%;
+    /*padding-top: 15rem;*/
+    padding-bottom: 15rem;
+    background-color: rgb(244, 249, 250);
+    
+}
+
+.rightContainer4Box h5 {
+    font-size: 1.3rem;
+    line-height: 5rem;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.rightContainer4Box h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+    color: gray;
+}
+
+.rightContainer4Box p, .centerContainer4Box p {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    color: rgb(183, 182, 182);
+    padding-top: 1.3rem;
+    margin-bottom: 8rem;
+}
+
+.rightContainer4Box p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: rgb(183, 182, 182);
+    padding-top: 1.3rem;
+    margin-bottom: 8rem;
+}
+
+.centerContainer4Box h3, .rightContainer4Box h3 {
+    text-transform: capitalize;
+    font-size: 3rem;
+    line-height: 5rem;
+    color: gray;
+}
+
+
+
+form {
+    clear: both;
+    /*border: 1px solid red;*/
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+}
+
+input, label {
+    float: left;
+}
+
+input {
+    width: 2.5rem;
+    height: 2.5rem;
+    outline: 2px solid black;
+    border-radius: 1%;
+    margin-top: 2rem;
+}
+
+.checkBoxContent {
+    box-sizing: border-box;
+    padding-left: 2rem;
+    /*border: 1px solid lime;*/
+    height: 10rem;
+    overflow: auto;
+    
+}
+
+.checkBoxContent h5 {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: rgb(17, 17, 61);
+}
+
+.checkBoxContent p {
+    margin-top: -2.8rem;
+}
+
+.arrows { 
+    /*border: 1px solid red;*/
+    margin-right: 1rem;
+    margin-top: -2rem;
+}
+
+.leftArrowCircle {
+    width: 6rem;
+    height: 5.1rem;
+    
+}
+
+.rightArrowCircle {
+    width: 5.4rem;
+}
+
+.container4BoxButton {
+    color: white;
+    padding: 2rem 5rem;
+    background-color: rgb(17, 17, 61);
+    border-radius: 3px;
+    font-weight: bold;
+    z-index: 2;
+    clear: both;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.leftContainer5Box {
+    position: relative;
+    /*border: 1px solid aqua;*/
+    width: 23%;
+    padding-left: 8rem;
+    padding-right: 4%;
+    margin-top: 13rem;
+    background-color: rgb(244, 249, 250);
+    z-index: 10;
+    margin-bottom: -11rem;
+   
+}
+
+.leftContainer5Box h5 {
+    font-size: 1.3rem;
+    line-height: 5rem;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.leftContainer5Box h3 {
+    font-size: 4rem;
+    line-height: 5rem;
+    color: gray;
+    margin-bottom: 0;
+}
+
+.flippedTriangle {
+    width: 100%;
+    /*border: 1px solid red;*/
+    background: linear-gradient(to bottom right,  rgb(244, 249, 250) 0%, rgb(244, 249, 250) 50%, rgb(17, 17, 61) 50%, rgb(17, 17, 61) 100%);
+    background: linear-gradient(to bottom right,  rgb(17, 17, 61) 0%, rgb(17, 17, 61) 50%, rgb(244, 249, 250) 50%, rgb(244, 249, 250) 100%);
+    transform: rotate(180deg);
+    z-index: -5;
+}
+
+.container6Box {
+    border: 1px solid red;
+    height: 70vh;
+}
+
+.infoBox6:first-child {
+    margin-left: 6rem;
+}
+
+.infoBox6 {
+    border: 1px solid aqua;
+    margin-top: 10rem;
+    height: 28vh;
+    width: 27%;
+    margin-left: 4rem;
+    margin-bottom: -5rem;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    float: left;
+}
+
+form {
+    clear: both;
+    /*border: 1px solid red;*/
+    margin-top: 0rem;
+    margin-bottom: 5rem;
+}
+
+.container6Box input, .container6Box label {
+    /*float: left;*/
+    clear: both;
+    margin-left: 2rem;
+}
+
+.container6Box input {
+    width: 2.5rem;
+    height: 2.5rem;
+    outline: 2px solid black;
+    border-radius: 1%;
+    margin-top: rem;
+    margin-right: rem;
+    
+}
+
+.checkBoxContent6 {
+    box-sizing: border-box;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 20rem;
+    width: 40rem;
+    overflow: auto;
+    margin-top: 0%;
+   
+    
+}
+
+.checkBoxContent6 h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: rgb(17, 17, 61);
+    margin-top: 2rem;
+}
+
+.checkBoxContent6 p {
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    color: gray;
 }
