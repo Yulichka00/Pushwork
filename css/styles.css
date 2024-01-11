@@ -499,7 +499,6 @@ input {
     /*border: 1px solid lime;*/
     height: 10rem;
     overflow: auto;
-    
 }
 
 .checkBoxContent h5 {
@@ -753,16 +752,22 @@ form {
 
 .leftCircleArrow, .rightCircleArrow {
     width: 7rem;
+    height: 7rem;
+    object-fit: cover;
     align-content: center;
-    padding-left: 3.5rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
     margin-top: 150%;
     margin-bottom: 150%;
     background-color: white;
+    /*border: 1px solid red;*/
+    border-radius: 100%;
 }
 
 .leftCircleArrow {
-    width: 7.6rem;
-
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
 }
 
 .section8Content ul li.contentBox8 {
@@ -822,4 +827,163 @@ form {
     font-size: 1.6rem;
     color: gray;
     line-height: 3.2rem;
+}
+
+.container9 {
+    /*border: 1px solid red;*/
+    background-color: rgb(17, 17, 61);
+    width: 100%;
+    height: 27.5vh;
+    clear: both;
+    margin-top: 4rem;
+}
+
+.leftBox9, .rightBox9 {
+    width: 10%;
+    float: left;
+}
+
+.leftBox9 {
+    width: 50%;
+    /*border: 3px solid red;*/
+    padding-left: 15%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    
+}
+
+.leftBox9 h5 {
+    /*border: 3px solid lime;*/
+    font-size: 1.3rem;
+    color: gray;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 7rem;
+}
+
+.leftBox9 h2 {
+    font-size: 3rem;
+    line-height: 5rem;
+    color: white;
+    margin-bottom: 5rem;
+}
+
+.rightBox9 {
+    /*border: 3px solid red;*/
+    width: 50%;
+    box-sizing: border-box;
+    padding-top: 6.5%;
+}
+
+.rightBox9 li {
+   /* border: 3px solid yellow;*/
+    float: left;
+    box-sizing: border-box;
+}
+
+.rightButton9 {
+    color: white;
+    padding: 2rem 3.3rem;
+    background-color: darkgray;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-right: 4rem;
+}
+
+.rightButton9-2 {
+    color: rgb(17, 17, 61);
+    padding: 2rem 5rem;
+    background-color: white;
+    border-radius: 3px;
+    font-weight: bold; 
+}
+
+footer {
+    clear: left;
+    height: 50vh;
+    /*border: 3px solid aqua;*/
+    padding-bottom: 10rem;
+    box-sizing: border-box;
+}
+
+.footerColumnContainer:first-child {
+    width: 15%;
+}
+
+.footerColumnContainer {
+    width: 12%;
+    /*border: 1px solid red;*/
+    float: left;
+    overflow: auto;
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1.5rem;
+    line-height: 3rem;
+
+}
+
+.footerColumnHeader {
+    font-size: 1.4rem;
+    line-height: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(17, 17, 61);
+}
+
+.footerColumn > li {
+    font-size: 1.5rem;
+    line-height: 4rem;
+    color: gray;
+    
+}
+
+.footerColumn p {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: gray;
+    margin-bottom: 1.5rem;
+}
+
+.checkBox, .checkBoxLabel {
+    float: left;
+    margin-top: 1.5rem;
+    color: gray;
+}
+
+.checkBox {
+    width: 2rem;
+    height: 2rem;
+    outline: 2px solid black;
+    border-radius: 1%;
+    margin-top: 2rem;
+}
+
+.checkBoxContentFooter {
+    box-sizing: border-box;
+    padding-left: 2rem;
+    /*border: 1px solid lime;*/
+    height: 5rem;
+    overflow: auto;
+}
+
+.mediaIconFooter {
+    height: 3rem;
+    width: 2rem;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.mediaIconsFooter {
+    /*border: 1px solid lime;*/
+    margin: 0;
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+
+.mediaIconsFooter li {
+    /*border: 1px solid red;*/
+    float: left;
+    padding-right: 1rem;
+    box-sizing: border-box;
 }
